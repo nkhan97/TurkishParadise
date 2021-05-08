@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class=" banner">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <h1 class="navbar-brand">TurkishParadise</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" data-modal-target="#pop-up">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+          </div>
+        </nav>
+        <!-- Top Container -->
+        <div class="takeaway-text">
+            <h1>We're now open for takeaway</h1>
+            <p>Take a look at our menu before ordering.</p>
+            <div>
+                <button data-modal-target="#pop-up" class="btn" id='menuBtn'>Menu</button>
+                <button href="#Contact" class="btn">Contact</button>
+            </div>
+        </div>
+        <!-- Socials -->
+        <div class="socials">
+            <div class="facebook">
+                <a class="icon fab fa-facebook-f"></a>
+            </div>
+            <div class="twitter">
+                <a class="icon fab fa-twitter"></a>
+            </div>
+            <div class="instagram">
+                <a class="icon fab fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+    <!-- Pop-up -->
+    <div class="pop-up" id="pop-up">
+        <div class="pop-up-header">
+            <h1>Menu</h1>
+            <button data-close-button class="close-btn">&times;</button>
+        </div>
+        <div class="pop-up-contact">
+            <p>Contact Number: 02081234567</p>
+            <p>We are open Monday-Sunday from 12:00 - 00:00</p>
+        </div>
+        <div class="pop-up-body">
+            <div class="starters">
+                <h2>Starters</h2>
+                    <ul>
+                        <li>Ezme</li><span>£4.30</span>
+                        <li>Houmous</li><span>£4.30</span>
+                        <li>Cacik</li><span>£4.30</span>
+                        <li>Borek</li><span>£4.90</span>
+                        <li>Sacuk Izgara</li><span>£3.00</span>
+                        <li>Dolma</li><span>£5.90</span>
+                        <li>Pita Bread</li><span>£0.50</span>
+                        <li>Lahmacun</li><span>£5.90</span>
+                    </ul>
+            </div>
+            <div class="grilled-dishes">
+                <h2>Grilled Dishes</h2>
+                    <ul>
+                        <li>Lamb Shish</li><span>£12.25</span>
+                        <li>Chicken Shish</li><span>£12.25</span>
+                        <li>Kofte Kebab</li><span>£10.50</span>
+                        <li>Mixed Shish</li><span>£12.25</span>
+                    </ul>
+            </div>
+            <div class="main-course">
+                <h2>Main Course</h2>
+                    <ul>
+                        <li>Chicken Donner Kebab</li><span>£7.00</span>
+                        <li>Lamb Donner Kebab</li><span>£7.00</span>
+                        <li>Chicken Shish Kebab</li><span>£8.00</span>
+                        <li>Lamb Shish Kebab</li><span>£8.00</span>
+                        <li>Chicken Kofte Kebab </li><span>£7.30</span>
+                        <li>Lamb Kofte Kebab</li><span>£7.30</span>
+                        <li>Mixed Kebab </li><span>£8.50</span>
+                        <li>Chicken Beti</li><span>£7.00</span>
+                        <li>Lamb Beyti</li><span>£7.00</span>
+                        <li>Lamb Chops</li><span>£8.00</span>
+                    </ul>
+            </div>
+            <div class="fish-dishes">
+                <h2>Fish Dishes</h2>
+                    <ul>
+                        <li>Leverek</li><span>£9.00</span>
+                        <li>Calamari</li><span>£9.50</span>
+                        <li>Sea Bass</li><span>£8.49</span>
+                        <li>Salmon</li><span>£8.49</span>
+                    </ul>
+            </div>
+            <div class="sides">
+                <h2>Sides & Extras</h2>
+                    <ul>
+                        <li>Large Rice</li><span>£4.95</span>
+                        <li>Medium Rice</li><span>£3.95</span>
+                        <li>Medium Chips </li><span>£4.49</span>
+                        <li>Large Chips </li><span>£5.49</span>
+                        <li>Onion Rings</li><span>£4.49</span>
+                    </ul>
+            </div>
+            <div class="salads">
+                <h2>Salads</h2>
+                    <ul>
+                        <li>Mixed Salad</li><span>£4.95</span>
+                        <li>Chicken Cesar Salad</li><span>£4.95</span>
+                        <li>Greek Salad</li><span>£4.95</span>
+                    </ul>
+            </div>
+            <div class="beverages">
+                <h2>Beverages</h2>
+                    <ul>
+                        <li>Coke (glass bottle)</li><span>£1.80</span>
+                        <li>Diet Coke (glass bottle)</li><span>£1.80</span>
+                        <li>Fanta (glass bottle) </li><span>£1.80</span>
+                        <li>Pepsi (glass bottle)</li><span>£1.80</span>
+                        <li>Coca-Cola (1.5l bottle)</li><span>£3.50</span>
+                        <li>Diet Coke (1.5l bottle)</li><span>£3.50</span>
+                        <li>Pepsi (1.5l bottle)</li><span>£3.50</span>
+                    </ul>
+            </div>
+            <div class="deserts">
+                <h2>Desets</h2>
+                    <ul>
+                        <li>Backlava</li><span>£4.49</span>
+                        <li>Red Velvet Cake</li><span>£5.29</span>
+                        <li>Chocolate Cake</li><span>£5.29</span>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    <!-- Contact and Location -->
+    <div class="contact-location" >
+        <div class="content-location-content">
+            <div class="location">
+                <div class="location-top-container">
+                    <h1>Find us on Google Maps</h1>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.490771759596!2d-0.0488597491501796!3d51.522557779537685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d29d41975c5%3A0x5dfc344c2b03bcae!2s30%20Globe%20Rd%2C%20Bethnal%20Green%2C%20London%20E1%204DU!5e0!3m2!1sen!2suk!4v1619694411629!5m2!1sen!2suk" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="location-bottom-container">
+                    <h4>You can find us at:</h4>
+                    <p>30 Globe Rd,</p>
+                    <p>Bethnal Green,</p>
+                    <p>London E1 4DU</p>
+                    <i class="utensils fas fa-utensils"></i>
+                    <br>
+                    <br>
+                    <p>Contact Number: 02081234567</p>
+                    <p>We are open Monday-Sunday from 12:00 - 00:00</p>
+                </div>
+            </div>
+            <div class="contact-form" id="Contact">
+                <form class="form">
+                    <h2 class="form-title">Contact us</h2>
+                    <div class="user-input">
+                        <input id="name" placeholder="Name" class="input" type="text" required="required">
+                    </div>
+                    <div class="user-input">
+                        <input id="email" placeholder="Email" class="input" type="email" required="required">
+                    </div>
+                    <div class="user-input">
+                        <input id="contact-number" placeholder="Contact Number" class="input" type="text" required="required">
+                    </div>
+                    <div class="user-input">
+                        <textarea class="input textarea" type="text" placeholder="Your Message..." required="required"></textarea>
+                    </div>
+                        <a href="" class="from-btn">Submit</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- About Us -->
+    <div id="About" class="About-us">
+        <div class="about-box">
+            <h1>Who We Are</h1>
+            <br>
+            <div class="divider">.</div>
+            <br>
+            <p class="AboutUs-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi doloribus sit porro nostrum nam, numquam id dolores magni eligendi rerum, minima delectus ducimus voluptatum, corrupti incidunt modi sint distinctio ab vel!!</p>
+        </div>
+    </div>
+    <!-- carousel -->
+    <div class="testimonial-section" id="testimonials">
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h2 class="testimonial-text"><em>The food is great. Would definitefly recommend to anyone.</em></h2>
+                  <img class="testimonial-image" src="images/Person1.jpg" alt="person 1's profile">
+                  <em class="testimonial-name">Steven Rooney</em>
+                </div>
+                <div class="carousel-item">
+                  <h2 class="testimonial-text"><em>Staff are so friendly and the food is amazing!</em></h2>
+                  <img class="testimonial-image" src="images/Person2.jpg" alt="lady-profile">
+                  <em class="testimonial-name">Emily Rowling </em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text"><em>Food is absolutely delicious and arrived promptly!</em></h2>
+                    <img class="testimonial-image" src="images/Person3.jpg" alt="lady-profile">
+                    <em class="testimonial-name">David Martins</em>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="policy">
+            <div class="footer-content">
+                <h3>FOOD</h3>
+                <ul>
+                    <li>Menu</li>
+                    <li>Recipes</li>
+                    <li>Gift Cards</li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>ABOUT US</h3>
+                <ul>
+                    <li>Who we are</li>
+                    <li>Where to find us</li>
+                    <li>Our partnerships</li>
+                    <li>Charity</li>
+                    <li>Being Sustainable</li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>HELP</h3>
+                <ul>
+                    <li>Food</li>
+                    <li>Online Ordering</li>
+                    <li>Fundraising Requests</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>LEGAL</h3>
+                <ul>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookies Policy</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

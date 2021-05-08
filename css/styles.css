@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* Navbar */
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/burger-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.navbar-brand {
+    cursor: default;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+
+/* Socials */
+.socials {
+    opacity: 0.2;
+    position: fixed;
+    top: 65%;
+    left: 0;
+    background-color: red;
+    border: 1px;
+    padding: 40px 20px 300px;
+}
+
+.socials:hover {
+    opacity: 1;
+}
+
+.socials .icon {
+    display: block;
+    color: yellow;
+    cursor: pointer;
+
+}
+
+.facebook, .twitter, .instagram {
+    padding-bottom: 20px;
+}
+
+/* Top Container */
+.takeaway-text {
+    display: inline;
+    position: relative;
+    top: 20%;
+    text-align: center;
+    color: white;
+}
+
+.btn { 
+    display: inline-block;
+    padding: 0.5em 3em;
+    border-radius: 1rem;
+    border: 0.16em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+.btn:hover {
+    color: #da6b1d;
+    border-color: #da6b1d;
+}
+    
+.btn:active {
+    color: #BBBBBB;
+    border-color: #BBBBBB;
+}
+
+
+/* Contact from */
+.contact-location {
+    padding: 5rem;
+    width: 100%;
+    background-color: #da6b1d;
+}
+
+.content-location-content {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.9);
+}
+
+.contact-form {
+    background-color: white;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    flex: 1;
+}
+
+.form {
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.user-input {
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.form-title {
+    font-size: 2.5rem;
+}
+
+.contact-form .user-input input,
+.contact-form .user-input textarea {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 1.2rem 0;
+    outline: none;
+    resize: none;
+    border: 1px solid #333;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    outline: none;
+    text-indent: 5px;
+}
+
+.input:focus {
+    width: 100%;
+}
+
+.textarea {
+    resize: none;
+    min-height: 100px;
+    border-radius: 40px;
+    padding: 2rem;
+}
+
+.from-btn {
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #da6b1d;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+              0 2px 10px 0 rgba(0,0,0,0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.from-btn:hover {
+    transform: translateY(1px);
+    text-decoration: none;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+              0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+
+/* Location */
+.location {
+    background-color: #da6b1d;
+    overflow: hidden;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    flex: 1;
+}
+
+.location h1 {
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.map {
+    position: relative;
+    align-items: center;
+    max-width: 80%;
+    height: auto;
+    padding: 5%;
+}
+
+.location-bottom-container {
+    text-align: center;
+}
+
+.location-top-container {
+    text-align: center;
+}
+
+
+/* About Us Div */
+.About-us {
+    background-image: linear-gradient(#141414, rgba(20, 20, 20, 0.4)), url('../images/Table-background.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    background-size: 100%;
+    background-position: 50% 45%;
+    color: #e8e8e8;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-box {
+    width: 50%;
+    float: right;
+    background-color: #000000;
+    opacity: 0.7;
+    text-align: center;
+    height: 500px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    margin-right: 3%;
+    max-height: 470px;
+}
+
+.About-us .AboutUs-text {
+    color: white;
+    margin: auto;
+    width: 100%;
+    border: 3px;
+    padding: 10px;
+    line-height: 30px;
+    font: 15px "Montserrat", sans-serif;
+} 
+
+.divider {
+    text-align: center;
+    color: #9c8c3c;
+    width: 100%;
+    height: 1.4px;
+    font-size: 1px;
+    background-color: #9c8c3c;
+    line-height: 1px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+
+/* Testimonial */
+#testimonials {
+    background-color: #da6b1d;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.testimonial-text {
+    font-family: "Monsterrat-Bold";
+    font-size: 2rem;
+    line-height: 3rem;
+}
+  
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 25%;
+}
+
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    line-height: 1.4rem;
+    overflow: hidden;
+}
+
+.policy {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li:hover {
+    text-decoration: underline;
+    cursor: default;
+}
+
+.footer-content {
+    color: white;
+    padding: 50px;
+    font-size: 10px;
+}
+
+.footer h3 {
+    font-size: 15px;
+}
+
+
+/* Modal */
+.pop-up {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 100;
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    transition: 200ms ease-in-out;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.pop-up-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.pop-up-header h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.pop-up-header .close-btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.pop-up-body {
+    padding: 10px 15px;
+}
+
+.pop-up-body .li {
+    display: inline;
+    float: left;
+}
+
+.pop-up-body span {
+    float: right;
+    position: relative;
+    bottom: 25px;
+}
+
+.pop-up-body li {
+    list-style: none;
+}
+
+.pop-up-contact {
+    padding: 10px 15px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.pop-up.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    transition: 200ms ease-in-out;
+}
+
+#overlay.active {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.close-btn {
+    color: #c0c5cb;
+    text-decoration: none;
+}
+
+.starters, .grilled-dishes, .main-course, .fish-dishes, .sides, .salads,
+.deserts, .beverages {
+    padding-top: 30px;
+}
+
+
+/* Media */
+@media (max-width: 950px ) {
+    .content-location-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 750px) {
+    .socials {
+        position: fixed;
+        top: 90%;
+        left: 0;
+        background-color: red;
+        border: 1px;
+        padding: 10px 5px 20px;
+    } 
+    .facebook, .twitter, .instagram {
+        padding-bottom: 5px;
+    } 
+    .about-box h1 {
+        font-size: 1.4rem;
+    }
+    .testimonial-text {
+        font-size: 1.8rem;
+    }
+    .footer-content {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 650px ) {
+    .contact-location {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .takeaway-text h1 {
+        font-size: 2rem;
+    }
+    .takeaway-text p {
+        font-size: 1rem;
+    }
+    .takeaway-text {
+        top: 10%;
+    }
+    .about-box {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px){
+    .about-box p{
+        font-size: 1rem;;
+    }
+    .about-box{
+        width: 100%;
+    }
+    .testimonial-text {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .footer-content {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .footer {
+        padding-left: 20px;
+    }
+    .testimonial-text {
+        font-size: 1rem;
+    }
+    .testimonial-name {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .takeaway-text h1 {
+        font-size: 1.5rem;
+    }
+    .takeaway-text p {
+        font-size: .5rem;
+    }
+    .btn {
+        padding:0.2em 2em;
+    }
+}
